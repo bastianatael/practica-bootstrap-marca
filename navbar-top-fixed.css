@@ -1,0 +1,565 @@
+/* Show it is fixed to the top */
+.navbar-brand img{
+  max-height: 30px;
+}
+.cover {
+  padding-left: 10px;
+  height: 45px;
+}
+.cover:first-child {
+  padding-left: 0;
+}
+.cover a {
+  color: black;
+  text-decoration: none;
+  font-size: .8em;
+}
+.cover img {
+  max-height: 45px;
+}
+.cover:after {
+  content: "";
+  float: right;
+  display: block;
+  height: 34px;
+  width: 1px;
+  border-right: 1px solid #e2e2e2;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.edition-selector__btn {
+  border: 1px solid #e2e2e2;
+  display: block;
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 5px;
+  padding: 0 0 0 5px;
+  background-color: transparent;
+  color: #666;
+  cursor: pointer;
+}
+.tools-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+}
+.tools-corporative-link {
+  margin-top: 9px;
+  transition: background-color 200ms ease-out 0s, border 200ms ease-out 0s, color 200ms ease-out 0s;
+  display: block;
+  height: 32px;
+  width: 110px;
+  border: 1px solid #c00;
+  border-radius: 5px;
+  background-color: #c00;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tools-corporative-link:hover {
+  background-color: #141d25;
+  border-color: #141d25;
+  color: white;
+}
+.login {
+  color: red;
+  background: white;
+  border-color: gray;
+  margin-left: 10px;
+}
+
+.iconsvg {
+  font-size: 1px;
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url('assets/img/sprites.svg');
+  background-repeat: no-repeat;
+}
+.iconsvg.iconsvg-flag-es-a {
+  background-position: -1px -577px;
+  width: 24px;
+  height: 24px;
+}
+.iconsvg.iconsvg-down-a {
+  background-position: -1px -179px;
+  width: 16px;
+  height: 16px;
+}
+.iconsvg.iconsvg-down-b {
+  background-position: -1px -197px;
+  width: 16px;
+  height: 16px;
+}
+.iconsvg.iconsvg-highlight-a {
+  background-position: -1px -731px;
+  width: 34px;
+  height: 34px;
+  margin-top: 10px;
+}
+.iconsvg-search-a {
+    background-position: -1px -2068px;
+    width: 32px;
+    height: 32px;
+    margin-left: -40px;
+}
+.icon-twitter {
+  background-position: 0 -3242px;
+}
+.seo-links-container .list-seo-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+.seo-links-container {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+.seo-links-container-justify-center .seo-links-container .container {
+  justify-content: center;
+}
+.seo-links-container .container {
+  display: flex;
+  height: 20px;
+  max-width: 1280px;
+  width: 100%;
+}
+.seo-links-container .list-seo-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+.seo-links-container .list-seo-links.horizontal li {
+  float: none;
+  margin: 0;
+}
+.seo-links-container .list-seo-links li {
+  flex: 0 0 auto;
+  padding-right: 6px;
+  position: relative;
+  font-size: .8em;
+}
+
+.list-seo-links {
+  list-style-type: none;
+}
+.list-seo-links a {
+  color: gray;
+  text-decoration: none;
+}
+.main-nav-container {
+  background: #c00;
+  height: 44px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+.main-menu{
+  padding: 0px;
+  margin-top: 5px;
+  height: 44px;
+}
+.main-tab-btn {
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  height: 44px;
+  margin: 0;
+  padding: 8px 10px 0px 20px
+}
+.main-tab-btn:hover {
+  background: #000;
+}
+.sports {
+  height: 44px;
+}
+.highlight {
+  width: 30%;
+  height: 44px;
+}
+.main-nav-container .highlight::before {
+  content: "";
+  display: block;
+  position:absolute;
+  left: 45%;
+  height: 44px;
+  width: 30%;
+  background-color: #af0000;
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  z-index: 0;
+}
+.highlight-menu {
+  position:absolute;
+  list-style: none;
+  color: white;
+}
+.highlight-menu li a {
+  list-style: none;
+  color: white;
+}
+.highlight-list-item {
+  font-size: 15px;
+  line-height: 44px;
+}
+.highlight-list-item:nth-child(n+3)::before {
+  content: "/";
+  display: inline-block;
+  color: #c00;
+  padding: 0 10px 0 12px;
+}
+.more-btn {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0 15px;
+}
+#cuerpo {
+  margin-top: 20px;
+  padding-right: 2em;
+}
+.articulo-grande {
+  position: relative;
+}
+.figura {
+  position: relative; 
+}
+.articulo-grande {
+  border-bottom: gray solid 1px;
+}
+.articulo-grande .ribbon {
+  position:absolute;
+  background: red;
+  color: white;
+  top: 0px;
+  font-size: .8em;
+  padding: 5px;
+}
+.articulo-grande img {
+  width: 100%;
+}
+.articulo-grande .titulo {
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  bottom: 25px;
+  text-align: center;
+  line-height: 1.2 ;
+}
+.pie {
+  position: relative;
+  text-transform: uppercase;
+  color: gray;
+  font-size: .8em;
+}
+@media screen and (max-width: 600px) {
+  .articulo-grande .titulo {
+    font-size: 14px;
+  }
+}
+
+.site-footer {
+  margin:50px 0 0;
+  background:#222;
+  overflow:hidden
+ }
+ .container-list-footer {
+  max-width:990px;
+  margin:0 auto;
+  overflow:hidden
+ }
+ .container-list-footer .arrow-toggle {
+  color:#fff;
+  font-family:"robotoBold",Arial,helvetica;
+  padding:6px 0 0 15px;
+  line-height:45px;
+  display:block;
+  border-bottom:1px solid #fff;
+  font-size:16px;
+  text-align:center
+ }
+ .list-footer {
+  color:#fff;
+  margin-top:10px;
+  float:left;
+  width:25%;
+  padding:10px;
+  margin-bottom:20px
+ }
+ .list-footer li {
+  padding:0;
+  font-size:12px;
+  margin:3px 0
+ }
+ .list-footer li.highlight {
+  font-family:"robotoBold",Arial,helvetica;
+  background:#333;
+  font-size:14px;
+  margin:0 0 10px;
+  background:none;
+  padding:5px 0
+ }
+ .list-footer span {
+  margin:0
+ }
+ .list-footer a {
+  color:#fff;
+  font-size:14px
+ }
+ .container-about-footer {
+  background:#eee;
+  overflow:hidden
+ }
+ .about-list {
+  margin:0 auto;
+  padding-right:10px;
+  padding-left:10px;
+  max-width:990px;
+  text-align:center;
+  font-size:14px
+ }
+ .about-list li {
+  display:inline-block;
+  font-size:12px;
+  margin:0 12px 10px 0;
+  font-size:14px
+ }
+ .about-list .copyright {
+  display:block;
+  float:none;
+  margin:20px 0 10px;
+  text-align:center
+ }
+ .about-list p {
+  font-family:"robotoBold",Arial,helvetica;
+  color:#000;
+  margin-left:0;
+  font-size:14px
+ }
+ .about-list a {
+  color:#000;
+  text-align:center
+ }
+ .follow-us {
+  width:100%;
+  text-align:center;
+  margin-bottom:45px
+ }
+ .follow-us p {
+  font-family:"robotoBold",Arial,helvetica;
+  font-size:13px;
+  margin:22px 0 10px;
+  display:block
+ }
+ .follow-us .social-networks {
+  display:flex;
+  justify-content:space-between;
+  margin:0 auto;
+  width:150px
+ }
+ .follow-us .social-networks li {
+  margin-right:0
+ }
+ .follow-us a {
+  cursor:pointer;
+  width:36px;
+  height:36px;
+  float:left;
+  border-radius:50%
+ }
+ .follow-us span {
+  position:absolute;
+  clip:rect(0, 0, 0, 0)
+ }
+ .partners {
+  margin:0 auto 80px;
+  width:590px
+ }
+ .partners li span {
+  color:#000;
+  display:inline-block;
+  font-size:12px;
+  height:32px;
+  line-height:16px;
+  margin-top:6px;
+  text-align:left;
+  width:370px
+ }
+ .partners .icon-partners-ministerio-energia {
+  float:left;
+  height:46px;
+  margin-right:10px;
+  width:170px
+ }
+ .header-search {
+  background-color:#333;
+  padding:10px 15px;
+  z-index:10;
+  height:60px;
+  position:absolute;
+  right:0;
+  top:30px;
+  width:460px
+ }
+
+ .icon-sprite,
+.icon-alerta,
+.icon-arrow-down-black,
+.icon-arrow-down-secondary,
+.icon-arrow-down,
+.icon-arrow-first,
+.icon-arrow-last,
+.icon-arrow-next-gray,
+.icon-arrow-next-photo,
+.icon-arrow-next,
+.icon-arrow-previous-photo,
+.icon-arrow-previous,
+.icon-arrow-right-14x14,
+.icon-arrow-up-black,
+.icon-arrow-up-secondary,
+.icon-arrow-up,
+.icon-atletismo,
+.icon-atras_32_d,
+.icon-badminton,
+.icon-baloncesto-white,
+.icon-baloncesto,
+.icon-balonmano,
+.icon-bocadillo_comentarios,
+.icon-boxeo,
+.icon-buscar-black,
+.icon-caption-photo,
+.icon-caption-video,
+.icon-cerrar_32_d,
+.icon-ciclismo-white,
+.icon-ciclismo,
+.icon-close-small-black,
+.icon-close-small,
+.icon-close-white,
+.banda_suscripcion .cerrar,
+.icon-close,
+.icon-comment-bubble-small-black,
+.icon-comment-bubble-small-white,
+.icon-comment-bubble-small,
+.icon-comment-bubble,
+.icon-comments,
+.icon-compartir,
+.icon-doc-heading,
+.icon-english-international,
+.icon-english,
+.icon-esgrima,
+.icon-f1-gillette-header,
+.icon-facebook-header-black,
+.icon-facebook-header,
+.icon-facebook-small,
+.icon-facebook,
+.icon-formula-1,
+.icon-futbol-sala,
+.icon-futbol-white,
+.icon-futbol,
+.icon-gallery,
+.icon-gillette-header,
+.icon-gimnasia,
+.icon-golf,
+.icon-google-small,
+.icon-google,
+.icon-halterofilia,
+.icon-hockey,
+.icon-ico_flecha_abajo,
+.icon-icon-video,
+.icon-judo,
+.icon-logged-mobile,
+.icon-login-mobile,
+.icon-login,
+.icon-mail-small,
+.icon-mail,
+.icon-menu-white,
+.icon-menu,
+.icon-mexico-header,
+.icon-motociclismo-white,
+.icon-motociclismo,
+.icon-motor-white,
+.icon-motor,
+.icon-natacion-sincronizada,
+.icon-natacion,
+.icon-new-window,
+.icon-nieve,
+.icon-padel,
+.icon-pantalla-white,
+.icon-pantalla,
+.icon-partners-ministerio-energia,
+.icon-photo-big-black,
+.icon-photo-big,
+.icon-photo,
+.icon-print,
+.icon-private_browsing_21,
+.icon-radio-heading,
+.icon-radio-marca,
+.icon-rally,
+.icon-rss-header-black,
+.icon-rss-header,
+.icon-rss,
+.icon-rugby-white,
+.icon-rugby,
+.icon-search-black,
+.icon-search-header,
+.icon-search,
+.icon-share-black,
+.icon-share-small-black,
+.icon-share-small-white,
+.icon-share-small,
+.icon-share,
+.icon-spanish-header,
+.icon-spanish,
+.icon-tenis-white,
+.icon-tenis,
+.icon-tiro,
+.icon-triatlon,
+.icon-twitter-black,
+.icon-twitter-color,
+.icon-twitter-header,
+.icon-twitter-small,
+.icon-twitter,
+.icon-usuario-black,
+.icon-vela,
+.icon-voleibol,
+.icon-voley-playa,
+.icon-waterpolo,
+.icon-whatsapp-small,
+.icon-whatsapp {
+ background-image:url('https://e00-marca.uecdn.es/assets/v21/img/sprites/icon-sd3f3eecd17.png');
+ background-repeat:no-repeat
+}
+
+.icon-facebook {
+  background-position: 0 -1460px;
+  background-color: #44619d;
+}
+.icon-twitter {
+  background-color: #03a3d8;
+  border-radius: 50%;
+  background-position: 0 -3242px;
+}
+
+.icon-rss {
+  background-position: 0 -2659px;
+  background-color: #d96d00;
+  border-radius: 50%;
+}
+
+.social-networks {
+  list-style: none;
+}
